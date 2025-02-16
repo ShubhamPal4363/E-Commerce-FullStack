@@ -1,0 +1,19 @@
+.category-card, .card-data {
+    width: 111.92px;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.category-heading, .brand-heading {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.brand-logo {
+    max-width: 100%;
+    object-fit: contain;
+    width: 32px;
+}
